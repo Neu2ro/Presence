@@ -26,7 +26,7 @@
         android:fontFamily="@font/alike_angular"
         android:text="@string/vivekanand_education_society_s_institute_of_technology"
         android:textAlignment="center"
-        android:textColor="#3A3434"
+        android:textColor="#FDFF00"
         android:textSize="40sp"
         android:textStyle="bold"
         android:translationY="390dp" />
