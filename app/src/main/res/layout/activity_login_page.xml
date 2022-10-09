@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    tools:context=".Login_page">
+
+    <ImageView
+        android:id="@+id/college_logo"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitStart"
+        android:src="@drawable/vesitlogo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/college_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:text="@string/welcome_to_presence"
+        android:textAlignment="center"
+        android:textColor="#47B5FF"
+        android:textSize="38sp"
+        android:textStyle="bold|italic"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/loginphoneNo"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/custom_button"
+        android:drawableStart="@drawable/ic_outline_person_outline_24"
+        android:ems="10"
+        android:hint="@string/phone_number"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:minHeight="50dp"
+        android:textColor="#00FFD1"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/loginpassword"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/custom_button"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:ems="10"
+        android:hint="@string/password_to_login"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="50dp"
+        android:textColor="#00FFD1"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/showpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/show"
+        android:textAllCaps="true"
+        android:textColor="#00FFD1"
+        android:textSize="15sp"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/hidepassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/hide"
+        android:textAllCaps="true"
+        android:textColor="#00FFD1"
+        android:textSize="15sp"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/login_page"
+        android:textAllCaps="true"
+        android:textColor="#00FFD1"
+        android:textSize="30sp"
+        tools:ignore="TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/remember"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="340dp"
+        android:text="@string/remember_me"
+        android:textColor="#D2001A"
+        android:textSize="15sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/signup"
+        android:textAllCaps="true"
+        android:textColor="#00FFD1"
+        android:textSize="30sp"
+        tools:ignore="TextContrastCheck" />
+
+
+</RelativeLayout>
