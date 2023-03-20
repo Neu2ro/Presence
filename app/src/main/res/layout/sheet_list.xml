@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:background="#A7FFE4"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/date_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nov_2022"
+        android:textColor="#00FFD1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+</LinearLayout>

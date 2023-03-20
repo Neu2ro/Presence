@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Presence</string>
+    <string name="vivekanand_education_society_s_institute_of_technology">Vivekanand Education Society\'s Institute Of Technology</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="login_page">Login</string>
+    <string name="email_to_login">email</string>
+    <string name="password_to_login">password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="signup">Signup</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="welcome_to_presence">Welcome to Presence</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="add_new_class">Add new Class</string>
+    <string name="class_name">Class Name</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="class_name_tv">Class Name</string>
+    <string name="subject_name_tv">Subject Name</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="title">Title</string>
+    <string name="add_student">Add Student</string>
+    <string name="change_date">Change Date</string>
+    <string name="attendance_sheet">Attendance Sheet</string>
+    <string name="nov_2022">nov 2022</string>
+</resources>
